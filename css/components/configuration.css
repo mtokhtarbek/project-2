@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'alegreya';
+    src: url('/fonts/alegreyasanssc-black-webfont.woff2') format('woff2'),
+         url('/fonts/alegreyasanssc-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, 
+body{
+    height: 100%;
+}
+
+body{
+   font: 16px / 1.42em "Roboto", Arial, sans-serif;
+   color:#212121;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   background:#fcf5e6;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul > li{
+list-style: none;
+}
+
+:root{
+--yellow: #ffc92f;
+--red: #e15b57;
+--black: #1b1b1b;
+--titleFont: 'Yanone Kaffeesatz', Arial, sans-serif; 
+}
+.container{
+    margin: 0 auto;
+    width: 1300px;
+    
+}

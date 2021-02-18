@@ -1,0 +1,104 @@
+.footer{
+    margin-bottom: 115px;
+}
+.site-menu__sections{
+    display: flex;
+    justify-content: space-between;
+
+}
+.site-menu{
+    margin-bottom: 115px;
+}
+.site-menu__col{
+    margin-right: 20px;
+}
+.site-menu__col:last-child{
+    margin-right: 0;  
+}
+.site-menu__title{
+    font-family: var(--titleFont);
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--black);
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.site-menu__item{
+    margin-bottom: 15px;
+}
+.site-menu__link{
+    text-decoration: none;
+    color:#737373;
+    font-size: 15px;
+}
+.site-menu__link:hover{
+    color:var(--red);
+}
+.site-menu__text{
+    font-size: 15px;
+    color: var(--black);
+    margin-bottom: 30px;
+    
+}
+.site-menu__text-row{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin-bottom: 5px;
+}
+.footer__container{
+    width: 1105px;
+}
+.extras{
+    display: flex;
+    margin-bottom: 95px;
+
+}
+.extras__col{
+    margin-right: 20px;
+    flex:1;
+}
+.extras__col:last-child{
+    margin-right: 0px;
+}
+.extras__best{
+    color:#fff;
+    background:#232323;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--titleFont);
+    text-transform: uppercase;
+    display: block;
+    padding: 39px 10%;
+    text-decoration: none;
+    line-height: 1;
+}
+.extras-col__social{
+    height: 100%;
+    background: url('/img/bg/pattern.png') center center / 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials{
+display: flex;
+}
+.social__item{
+    margin-right: 50px;
+}
+.social__item:last-child{
+    margin-right: 0px;
+}
+.social__link{
+    width: 38px;
+    height: 38px;
+    display: block;
+}
+.social__link:hover .social__icon{
+    fill:var(--red);
+}
+.social__icon{
+    width: 100%;
+    height: 100%;
+}
