@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    transition: width .3s;
+    transition: all .3s;
 }
 .sidebar--opened{
     width: 325px;
@@ -44,9 +44,9 @@
     fill: var(--yellow);
 }
 .sidebar_hamburger-icon{
-width: 29px;
-height: 29px;
-fill: var(--yellow);
+    width: 29px;
+    height: 29px;
+    fill: var(--yellow);
 }
 .sidebar__hamburger{
     display: block;
