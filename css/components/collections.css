@@ -9,7 +9,7 @@ min-height: 474px;
 flex: 1;
 overflow: hidden;
 margin-right: 30px;
-background: url('/img/bg/pattern.png') center center / 500px;
+background: url('../../img/bg/pattern.png') center center / 500px;
 position: relative;
 }
 
@@ -25,11 +25,11 @@ background: center center / contain no-repeat;
 }
 
 .colections__item--type-guys:before{
-    background-image: url('/img/collections/collection_man.png');
+    background-image: url('../../img/collections/collection_man.png');
 
 }
 .colections__item--type-girls:before{
-    background-image: url('/img/collections/collection_woman.png');
+    background-image: url('../../img/collections/collection_woman.png');
     top: -31%;
     left:-25%;
     width: 80%;
